@@ -22,13 +22,6 @@
 
 
 /* added from HW3 container 1158px restricted*/
-main,footer{
-    min-width: 1558px;
-}
-.container{
-    width: 1158px;
-    margin: 0 auto;
-}
 
 
 /* added from HW3 global style reset */
@@ -52,7 +45,7 @@ h6,ul {
     body{
         font-family: 'Opens Sans', san-serif;
         font-family: Roboto;
-        min-width: 1558px;
+        
     }
 }
 

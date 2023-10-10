@@ -224,7 +224,7 @@ padding:0px ;
 
 
 .container-hero{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),  url(images/people-office.jpg);
+    background-image:url(images/people-office.jpg);
     margin-bottom: 20px;
     padding-top: 10%;
     padding-bottom: 10%;

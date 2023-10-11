@@ -318,6 +318,7 @@ padding:0px ;
     background-color: var(--color-navyblue);
     text-align: center;
     padding: 32px;
+    
 }
 
 .footer-text {
@@ -325,6 +326,7 @@ padding:0px ;
     padding: 0 30px;
     text-align: left;
     padding: 32px;
+    width: 268px;
 }
 
 .team-name{
@@ -372,7 +374,6 @@ padding:0px ;
     margin-top: 16px;
 }
 
-
 .footer-link{
     width: 40px;
     height: 40px;
@@ -389,14 +390,12 @@ padding:0px ;
     height: 24px;
     align-items: center;
     fill: var(--color-white);
-
   }
 
 .company-svg{
     width: 104px;
     height: 56px;
-    fill: var(--color-light-slate);
-    
+    fill: var(--color-light-slate); 
 }
 
  .client-list-item{
@@ -407,8 +406,6 @@ padding:0px ;
     align-items: center;
     justify-content: center;
  }
-
-
 
 .client-link-item{
     border-radius: 4px;
@@ -433,22 +430,32 @@ padding:0px ;
     cursor: pointer;
  }
 
-
-
 .company-svg:hover{
     fill: var(--color-ocean);
-    cursor: pointer;
-    
+    cursor: pointer;  
  }
+
 .social-media-list{
     padding-bottom: 32px;
 }
-.container-content-footer{
+
+.subscribe{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.64px;
+    color: var(--color-white);
+    gap: 40px;
+    text-align: center;
+}
+
+.subscribe-btn{
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
-
 }
+
 
 .footer-field {
     border-radius: 4px;
@@ -458,9 +465,7 @@ padding:0px ;
     background-color: var(--color-navyblue);
 }
 
-.footer-section{
-    background-color: ;
-}
+
 .social-text-footer,.social-link-footer{
     flex-wrap: wrap;
     text-align: center;
@@ -702,6 +707,8 @@ button, input, optgroup, select, textarea {
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .user-contact-submit,
@@ -884,16 +891,6 @@ form, .user-contact{
     gap: 16px;
     border-radius: 4px;
     background: var(--color-iris);
-    color: var(--color-white);
-}
-
-.subscribe{
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.64px;
     color: var(--color-white);
 }
 

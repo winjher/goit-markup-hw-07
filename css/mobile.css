@@ -385,9 +385,23 @@ padding:0px ;
     align-items: center;
     background-color: var(--color-iris);
     border-radius: 50px 50px;
+
  }
 
+ .social-svg{
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    fill: var(--color-white);
 
+  }
+
+.company-svg{
+    width: 104px;
+    height: 56px;
+    fill: currentColor;
+    
+}
 
  .client-list-item{
     display: flex;

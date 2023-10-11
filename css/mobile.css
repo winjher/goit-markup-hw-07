@@ -367,3 +367,10 @@ padding:0px ;
     background-color: var(--color-iris);
     border-radius: 50px 50px;
  }
+
+ .card{
+    background-color: var(--color-white);
+    border: 1px solid var(--color-cornflower);
+    border-radius: 0px 0px 8px 8px;
+    text-align: center;
+}

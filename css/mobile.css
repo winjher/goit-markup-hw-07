@@ -355,6 +355,18 @@ padding:0px ;
     border-radius: 50px 50px;
     justify-content: center;
     align-items: center;
-    list-style: none;
-    
+    list-style: none; 
+ }
+ .social-media-list{
+    padding-bottom: 32px;
+}
+
+.footer-link{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-iris);
+    border-radius: 50px 50px;
  }

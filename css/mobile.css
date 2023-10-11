@@ -374,3 +374,48 @@ padding:0px ;
     border-radius: 0px 0px 8px 8px;
     text-align: center;
 }
+
+
+.footer-link{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-iris);
+    border-radius: 50px 50px;
+ }
+
+
+
+ .client-list-item{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+
+.client-link-item{
+    border-radius: 4px;
+    display: flex;
+    border: 1px solid var(--color-navyblue);
+    width: 168px;
+    height: 88px;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ .client-link-item:hover{
+    border: 1px solid var(--color-ocean);
+    cursor: pointer;
+ }
+
+.client-svg:hover {
+    fill: currentColor;
+    cursor: pointer;
+  }

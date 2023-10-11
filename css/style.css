@@ -454,15 +454,18 @@ footer{
     height: 40px;
     margin: 10px;
     border-radius: 50px 50px;
-}
-
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+ }
 
 .social-text-footer,.social-link-footer{
     flex-wrap: wrap;
   }
 .container-footer {
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
 
@@ -478,12 +481,6 @@ footer{
  }
 
 
- .social-media-link{
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    
- }
 
  .client-list-item{
     display: flex;

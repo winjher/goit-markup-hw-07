@@ -347,3 +347,14 @@ padding:0px ;
      flex-direction: column;
      
  }
+ .social-media-link{
+    list-style: none;
+    display: inline-flex;
+    height: 40px;
+    margin: 10px;
+    border-radius: 50px 50px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+ }

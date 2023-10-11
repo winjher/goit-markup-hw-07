@@ -337,10 +337,13 @@ padding:0px ;
  .client-list-item{
      text-align: center;
      list-style: none;
+     flex-wrap: wrap;
  }
  .client-link-item{
      border: .1px solid;
      margin-left: auto;
      margin-right:auto;
      margin-top:8px;
+     flex-direction: column;
+     
  }

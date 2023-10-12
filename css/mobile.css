@@ -68,7 +68,7 @@ main,
 footer {
     max-width: 428px;
 }
-
+/* 
 
 .phone_menu_container {
     display: flex;
@@ -90,11 +90,11 @@ footer {
     transition: all .5s ease-in-out;
 }
 
-/*
+
 .phone_menu_items {
     display: none;
 }
-*/
+
 .phone_menu_hamburger {
     width: 20px;
     height: 2px;
@@ -219,7 +219,7 @@ footer {
 
 .phone_menu_btn input {
     display: none;
-}
+} */
 
 
 .container {

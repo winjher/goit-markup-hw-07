@@ -69,7 +69,6 @@ footer {
 }
 
 .mobile-container {
-    max-width: 480px;
     margin: auto;
     background-color: var(--color-cloud) ;
     height: 500px;
@@ -768,8 +767,8 @@ footer {
     right: 8px;
     top: 8px;
     position: absolute;
-    left: 60%;
-    top: 130px;
+    left: 360px;
+    top: 320px;
     cursor: pointer;
     fill: var(--color-cornflower);
     stroke-width: 1px;
@@ -885,16 +884,15 @@ input[type=text] {
 h4 {
     color: var(--color-navyblue);
     text-align: center;
-    padding-top: 20px;
-    /* Body Medium */
+    padding-top: 72px;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 24px;
-    /* 150% */
     letter-spacing: 0.32px;
 }
+    
 
 form,
 .user-contact {
@@ -1078,9 +1076,10 @@ form,
 .section-application-list-item,
 .section-course-list-item,
 .section-webdesign-list-item {
-    gap: 20px;
-    padding-bottom: 40px;
-    
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
 }
 
 
@@ -1130,4 +1129,9 @@ form,
     margin-right: auto;
     background-color: var(--color-navyblue);
     text-align: center;
+}
+#footer-email{
+    width: 264px;
+    height: 40px;
+    flex-shrink: 0;
 }

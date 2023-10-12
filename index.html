@@ -516,7 +516,7 @@
             <div class="container-footer subscribe">
                 <p class="subscribe"> Subscribe</p><br>
                 <label for="email_add"></label>
-                <input type="email" class="footer-field" placeholder="Email" required>
+                <input type="email" id="footer-email" class="footer-field" placeholder="Email" required>
             </div>
             <div class="container-footer">
                 <button type="button" class="subscribe-btn">
@@ -531,14 +531,16 @@
         aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-close btn-close">
+                <!-- <div class="modal-close">
                     <img src="images/icons/close.svg" alt="">
-                </div>
+                </div> -->
 
                 <div class="modal-header">
                     <h5 class="modal-title" id="ModalLabel"></h5>
-                    <button type="button" class="btn-close modal-close" data-bs-dismiss="modal"
-                        aria-label="Close"></button>
+                    <button type="button" class=" modal-close" data-bs-dismiss="modal"
+                        aria-label="Close">
+                        <img src="images/icons/close.svg" alt="">
+                    </button>
                 </div>
                 <div class="modal-body">
                     

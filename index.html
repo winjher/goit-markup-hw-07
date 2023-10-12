@@ -520,66 +520,69 @@
                 <p class="subscribe"> Subscribe</p><br>
                 <label for="email_add"></label>
                 <input type="text" class="footer-field" placeholder="Email" required>
+            </div>
+            <div class="container-footer">
                 <button type="button" class="subscribe-btn">
                     Subscribe
                     <img src="images/icons/arrow.svg" alt="" srcset="">
                 </button>
             </div>
-
     </div>
     </footer>
- <!-- Modal -->
- <div class="modal fade is-hidden" data-modal id="Modal" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-close btn-close">
-                <img src="images/icons/close.svg" alt="">
-            </div>
+    <!-- Modal -->
+    <div class="modal fade is-hidden" data-modal id="Modal" tabindex="-1" aria-labelledby="ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-close btn-close">
+                    <img src="images/icons/close.svg" alt="">
+                </div>
 
-            <div class="modal-header">
-                <h5 class="modal-title" id="ModalLabel"></h5>
-                <button type="button" class="btn-close modal-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <h4>Leave your information and we'll call you back.
-                </h4>
-                <form class="user-contact" action="post" method="get" accept-charset="utf-8">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ModalLabel"></h5>
+                    <button type="button" class="btn-close modal-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4>Leave your information and we'll call you back.
+                    </h4>
+                    <form class="user-contact" action="post" method="get" accept-charset="utf-8">
 
-                    <label for="fullname" class="user-info">Name</label>
-                    <img src="images/icons/user.svg" alt="" class="user-icons">
-                    <input type="text" class="input-field" placeholder="|">
-                    <label for="phone" class="user-info">Telephone</label>
-                    <img src="images/icons/user-phone.svg" alt="" class="user-icons">
-                    <input type="number" class="input-field" required="">
-                    <label for="email" class="user-info">Email</label>
-                    <img src="images/icons/user-email.svg" alt="" class="user-icons">
-                    <input type="email" class="input-field" required>
+                        <label for="fullname" class="user-info">Name</label>
+                        <img src="images/icons/user.svg" alt="" class="user-icons">
+                        <input type="text" class="input-field" placeholder="|">
+                        <label for="phone" class="user-info">Telephone</label>
+                        <img src="images/icons/user-phone.svg" alt="" class="user-icons">
+                        <input type="number" class="input-field" required="">
+                        <label for="email" class="user-info">Email</label>
+                        <img src="images/icons/user-email.svg" alt="" class="user-icons">
+                        <input type="email" class="input-field" required>
 
-                    <label for="username" class="user-info">Comment</label>
-                    <!-- <img src="images/icons/user-check.svg" alt="" class="user-icons"> -->
-                    <textarea name="comments" id=comments rows="8" cols="20" class="user-info-comments"></textarea>
+                        <label for="username" class="user-info">Comment</label>
+                        <!-- <img src="images/icons/user-check.svg" alt="" class="user-icons"> -->
+                        <textarea name="comments" id=comments rows="8" cols="20" class="user-info-comments"></textarea>
 
-                    <input type="checkbox" name="" id="" class="user-checkox-icon" />
+                        <input type="checkbox" name="" id="" class="user-checkox-icon" />
 
-                   <p class="info-terms">
-                        I agree with the newsletter and the Terms and Conditions
-                   </p>
-                    <button type="button" class="button-send">
+                        <p class="info-terms">
+                            I agree with the newsletter and the Terms and Conditions
+                        </p>
+                        <button type="button" class="button-send">
 
-                        Send
+                            Send
 
-                    </button>
+                        </button>
 
-                </form>
-            </div>
-            <div class="modal-footer">
-                <p class="info-terms"></p>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p class="info-terms"></p>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<script src="js/modal.js"></script>
+    <script src="js/modal.js"></script>
 </body>
 
 </html>

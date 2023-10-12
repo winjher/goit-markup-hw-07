@@ -90,11 +90,11 @@ footer {
     transition: all .5s ease-in-out;
 }
 
-
+/*
 .phone_menu_items {
     display: none;
 }
-
+*/
 .phone_menu_hamburger {
     width: 20px;
     height: 2px;

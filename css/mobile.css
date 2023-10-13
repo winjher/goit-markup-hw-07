@@ -763,9 +763,11 @@ footer {
     background-color: var(--color-cornflower);
     border: 0px;
     border-radius: 50px;
+    /*
     position: absolute;
     right: 8px;
     top: 8px;
+    */
     position: absolute;
     left: 360px;
     top: 320px;

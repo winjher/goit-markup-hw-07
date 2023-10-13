@@ -98,7 +98,7 @@ button {
 }
 
 address{
-    margin-left:330px;
+    margin-left:130px;
 }
 
 
@@ -237,6 +237,8 @@ address{
     left: 427px;
     gap: 24px;
     margin-left:120px;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
@@ -250,6 +252,7 @@ address{
     border: 1px solid var(--color-cornflower);
     cursor: pointer;
     color: var(--color-iris);
+    width: cal( 100% /2)-216px;
 }
 
 

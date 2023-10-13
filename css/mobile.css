@@ -276,12 +276,12 @@ footer {
     /* margin-top: 3em; */
 }
 
-/* .container-hero{
+.container-hero{
     background-color: var(--color-ocean);
-} */
+}
 
 .container-hero {
-    background-image: url(images/people-office.jpg);
+    background-image: url(./images/people-office.jpg);
     margin-bottom: 20px;
     padding-top: 10%;
     text-align: center;

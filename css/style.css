@@ -9,9 +9,10 @@
     --color-dairy: #FCFCFC;
     --color-slate: #434455;
     --color-diary: #FCFCFC;
-   
+    --color-light-slate: #8E8F99;
     --font-family-open-sans:'Open sans',san-serif;
     --font-family-roboto: 'Roboto',san-serif;
+    --transition-duration: .1s;
 }
 
 *, *::before, *::after {
@@ -132,13 +133,7 @@ address{
     color: var(--color-slate);    
 }
 
-.active{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-ocean);
-}
+
 
 .line::after{
     content:"";
@@ -342,7 +337,7 @@ footer{
     text-align: left;
     color: var(--color-cloud);
     width: 264px;
-    padding-top: 8px;
+   
 }
 
 .section-ourteam{
@@ -396,6 +391,9 @@ footer{
     display: flex;
     list-style: none;
     gap: 24px;
+   
+
+
 }
 
 
@@ -451,19 +449,15 @@ footer{
     height: 40px;
     margin: 10px;
     border-radius: 50px 50px;
-    justify-content: center;
+}
 
-    align-items: center;
-    list-style: none;
-    
- }
 
 .social-text-footer,.social-link-footer{
     flex-wrap: wrap;
   }
 .container-footer {
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 
@@ -479,6 +473,12 @@ footer{
  }
 
 
+ .social-media-link{
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+ }
 
  .client-list-item{
     display: flex;
@@ -508,7 +508,7 @@ footer{
  }
 
 .client-svg:hover {
-    fill: currentColor;
+    fill: var(--color-ocean);
     cursor: pointer;
   }
   
@@ -529,7 +529,7 @@ footer{
 .company-svg{
     width: 104px;
     height: 56px;
-    fill: currentColor;
+    fill: var(--color-light-slate);
     
 }
  .company-svg:hover{
@@ -540,10 +540,10 @@ footer{
 .social-media-list{
     padding-bottom: 32px;
 }
-/* .container-content-footer{
+.container-content-footer{
     display: flex;
     gap: 40px;
-} */
+}
 
 .section-features-item{
     align-items: center;
@@ -725,20 +725,20 @@ footer{
     pointer-events: auto;
     transform: none;
 }
+
 .modal.is-hidden,.modal-content{
      /*transform*/
     transform: translateY-20px;
      /*scale*/
     transform: scale(0.5);
 }
-.modal.is-hidden{
+.is-hidden{
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-    transform: translateY(-20px);
-    
-    
+    transform: translateY(-20px); 
 }
+
 .modal-content{
     width: 408px;
     height: 584px;
@@ -746,7 +746,21 @@ footer{
     background: var(--color-white);
     transform: none;
     border-radius: 4px;
+    background: var(--color-diary);
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+.modal-title{
+    color: var(--color-navyblue);
+    text-align: center;
+    /* Body Medium */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.32px;
+    padding-top: 15px;
 }
 
 .modal-close {
@@ -768,6 +782,21 @@ footer{
     flex-shrink: 0;
 }
 
+#img-close{
+
+    top:1rem;
+    position: relative;
+}
+
+.input-field:focus {
+    width: 360px;
+    background-color: var(--color-cornflower);
+  }
+  
+.input-field:hover,
+.info-comments:hover{
+    color: var(--color-iris);
+}
 
 button, input, optgroup, select, textarea {
     font-family: inherit;
@@ -856,18 +885,7 @@ input[type=text]{
     width: 360px;
     height: 120px;
 }
-h4{
-    color: var(--color-navyblue);
-    text-align: center;
-    padding-top: 20px;
-    /* Body Medium */
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
-}
+
 
 form, .user-contact{
     display: flex;
@@ -969,15 +987,29 @@ form, .user-contact{
     color: var(--color-white);
 }
 
-.info-terms{
-    margin-left:auto;
+.info-terms {
+    /* margin-left: auto; */
     margin-right: 0 auto;
     width: 338px;
-    flex-shrink: 0;
+    /* flex-shrink: 0; */
+    margin-left: 50px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    padding-bottom: 8px;
 }
+
 .footer-field{
     width: 264px;
     height: 40px;
+}
+.footer-email {
+    border-radius: 4px;
+    border: 1px solid var(--color-white, #FFF);
+    opacity: 0.3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: var(--color-navyblue);
+    width: 300px;
 }
 
 .user-icons{

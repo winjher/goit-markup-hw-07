@@ -783,7 +783,7 @@ footer{
 }
 
 #img-close{
-
+    margin: 0;
     top:1rem;
     position: relative;
 }

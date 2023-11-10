@@ -33,6 +33,7 @@ body {
     column-gap: 40px;
     min-height: 100vh; */
     font-family: 'Opens Sans' ,san-serif,Roboto;
+    width: 420px;
 }
 
 
@@ -50,19 +51,18 @@ body {
     font-weight: 700;
 }
 
-
-  
-  .nav-menu-list-item,.address-link {
+.nav-menu-list-item, a.address-link {
     overflow: hidden;
     background-color: var(--color-cornflower);
     position: relative;
-  }
+    display: none;
+}
   
-  .nav-menu-list-item {
+.nav-menu-list-item {
     display: none;
   }
   
-  .nav-menu-list-item a {
+.nav-menu-list-item a {
     color: var(--color-slate);
     padding: 14px 16px;
     text-decoration: none;
@@ -519,6 +519,7 @@ body {
 
 .section-features-item {
     align-items: center;
+    display: block;
 }
 
 .section-customers {
@@ -579,6 +580,16 @@ body {
     object-fit: cover;
     object-position: center;
 
+}
+.ourteam-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+
+}
+
+.container{
+    margin: 0;
 }
 
 .card-team:hover .text {
